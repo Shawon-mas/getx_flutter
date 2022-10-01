@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_flutter/pages/reactive_state_manger.dart';
 import 'package:getx_flutter/routes/routes.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       initialRoute: home,
       debugShowCheckedModeBanner: false,
       getPages: pages,
+      home: ReactiveStateManger(),
     );
   }
 }
